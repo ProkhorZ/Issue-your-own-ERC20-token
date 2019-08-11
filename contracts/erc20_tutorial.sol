@@ -3,7 +3,7 @@ pragma solidity ^0.4.24;
 // ----------------------------------------------------------------------------
 // 'Wimper' token contract
 //
-// Deployed to : ?????
+// Deployed to : 0xaA452aF81E3C99aD599610B1b7109b904A304622
 // Symbol      : WMPR
 // Name        : Wimper - Defused BOMB Token
 // Total supply: 1000
@@ -117,8 +117,8 @@ contract WimperToken is ERC20Interface, Owned, SafeMath {
         name = "Wimper - Defused BOMB Token";
         decimals = 8;
         _totalSupply = 1000000000000;
-        balances[?????] = _totalSupply;
-        emit Transfer(address(0), ?????, _totalSupply);
+        balances[0xaA452aF81E3C99aD599610B1b7109b904A304622] = _totalSupply;
+        emit Transfer(address(0), 0xaA452aF81E3C99aD599610B1b7109b904A304622, _totalSupply);
     }
 
 
